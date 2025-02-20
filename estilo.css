@@ -5,7 +5,7 @@ body{
     background-image: url('taai.jfif');
     background-size: cover;
     background-position: center;
-    /* Altura da tela inteira */
+    height: 100vh;
 }
 
 .container{
@@ -17,22 +17,22 @@ body{
     margin: auto;
     margin-top: 50px;
     background-color: transparent;
-    backdrop-filter: blur(5px); /* Aplica o efeito de desfoque */
+    backdrop-filter: blur(11px); /* Aplica o efeito de desfoque */
     border-radius: 10px;
+    border-color: transparent;
 }
 .linhas{
-    background-color: rgba(0, 0, 0, 0.295);
-    border-color: black;
+    background-color: rgba(248, 247, 247, 0.295);
+    border-color: transparent;
+    color: rgb(0, 0, 0);
 }
-.linhas placeholder{
-    color: white;
-}
+
 .branco{
     color: rgb(0, 0, 0);
 }
 .btn{
     background-color: yellow;
     color: black;
-    border-color: yellow;
+    border-color: transparent;
 }
 

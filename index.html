@@ -13,31 +13,31 @@
     
         <div class="card">
             <div class="card-body">
-                <h2 class="text-center branco">Cadastro</h2>
+                <h2 class="text-center branco">Cadastro</h2><br>
                 <form>
                     <div class="form-group branco">   
                         <label for="nome">Nome:</label>
-                        <input type="text" class="form-control linhas" id="nome" placeholder="Digite seu nome">
+                        <input type="text" class="form-control linhas" id="nome" placeholder="Digite seu nome" required minlength="5" maxlength="60">
                     </div>
                     <div class="form-group branco">   
                         <label for="email">Email:</label>
-                        <input type="email" class="form-control linhas" id="email" placeholder="Digite seu email">
+                        <input type="email" class="form-control linhas" id="email" placeholder="Digite seu email" required minlength="5" maxlength="100">
                     </div>
                     <div class="form-group branco">   
                         <label for="senha">Senha:</label>
-                        <input type="password" class="form-control linhas" id="senha" placeholder="Digite sua senha ">
+                        <input type="password" class="form-control linhas" id="senha" placeholder="Digite sua senha" required minlength="8" maxlength="60">
                     </div>
                     <div class="form-group branco">   
                         <label for="confSenha">Confirmar senha:</label>
-                        <input type="password" class="form-control linhas" id="confSenha" placeholder="confirme sua senha">
+                        <input type="password" class="form-control linhas" id="confSenha" placeholder="confirme sua senha" required minlength="8" maxlength="60">
                     </div>
                     <div class="form-group branco">   
                         <label for="cidade">Cidade:</label>
-                        <input type="text" class="form-control linhas" id="cidade" placeholder="Digite sua cidade">
+                        <input type="text" class="form-control linhas" id="cidade" placeholder="Digite sua cidade" required minlength="2" maxlength="30">
                     </div>
                     <div class="form-group branco">   
                         <label for="estado">Estado:</label>
-                        <input type="text" class="form-control linhas " id="estado" placeholder="Digite seu estado">
+                        <input type="text" class="form-control linhas " id="estado" placeholder="Digite seu estado" required minlength="2" maxlength="">
                     </div>
                     <br>
                     <button type="submit" class="btn btn-primary btn-block">Cadastrar</button>

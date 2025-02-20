@@ -1,16 +1,16 @@
 # app_cadastro
  ## regras
  ### Nome
- - máximo 60 caracteres
- - mínimo 5 caracteres
- - campo obrigatorio
+ - **máximo 60 caracteres**
+ - **mínimo 5 caracteres**
+ - **campo obrigatorio**
 
  ### E-mail
- - tem que ter @
+ - **tem que ter @**
  - não pode repetido
- - campo obrigatorio
- - máximo 100 caracteres
- - mínimo 5 caracteres
+ - **campo obrigatorio**
+ - **máximo 100 caracteres**
+ - **mínimo 5 caracteres**
 
  ### Senha
  - máximo 60 caracteres
