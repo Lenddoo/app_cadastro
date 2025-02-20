@@ -1,0 +1,38 @@
+body{
+    background-color: darkcyan;
+}
+.bg-custom {
+    background-image: url('taai.jfif');
+    background-size: cover;
+    background-position: center;
+    /* Altura da tela inteira */
+}
+
+.container{
+    background-color: transparent;
+}
+
+.card {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: transparent;
+    backdrop-filter: blur(5px); /* Aplica o efeito de desfoque */
+    border-radius: 10px;
+}
+.linhas{
+    background-color: rgba(0, 0, 0, 0.295);
+    border-color: black;
+}
+.linhas placeholder{
+    color: white;
+}
+.branco{
+    color: rgb(0, 0, 0);
+}
+.btn{
+    background-color: yellow;
+    color: black;
+    border-color: yellow;
+}
+
