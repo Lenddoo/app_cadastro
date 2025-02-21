@@ -10,34 +10,40 @@
     <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
 </head>
 <body class="bg-custom">
-    
+    <div class="container">
         <div class="card">
             <div class="card-body">
                 <h2 class="text-center branco">Cadastro</h2><br>
                 <form>
                     <div class="form-group branco">   
                         <label for="nome">Nome:</label>
-                        <input type="text" class="form-control linhas" id="nome" placeholder="Digite seu nome" required minlength="5" maxlength="60">
+                        <input type="text" class="form-control linhas" id="nome" placeholder="Nome" required minlength="5" maxlength="60">
+                        <span class="erro "  id="mensagem-erro-nome"></span>
                     </div>
                     <div class="form-group branco">   
                         <label for="email">Email:</label>
-                        <input type="email" class="form-control linhas" id="email" placeholder="Digite seu email" required minlength="5" maxlength="100">
+                        <input type="email" class="form-control linhas" id="email" placeholder="E-mail" required minlength="5" maxlength="100">
+                        <span id="mensagem-erro-email"></span>
                     </div>
                     <div class="form-group branco">   
                         <label for="senha">Senha:</label>
                         <input type="password" class="form-control linhas" id="senha" placeholder="Digite sua senha" required minlength="8" maxlength="60">
+                        <span id="mensagem-erro-senha"></span>
                     </div>
                     <div class="form-group branco">   
                         <label for="confSenha">Confirmar senha:</label>
                         <input type="password" class="form-control linhas" id="confSenha" placeholder="confirme sua senha" required minlength="8" maxlength="60">
+                        <span id="mensagem-erro-confiSenha"></span>
                     </div>
                     <div class="form-group branco">   
                         <label for="cidade">Cidade:</label>
                         <input type="text" class="form-control linhas" id="cidade" placeholder="Digite sua cidade" required minlength="2" maxlength="30">
+                        <span id="mensagem-erro-cidade"></span>
                     </div>
                     <div class="form-group branco">   
                         <label for="estado">Estado:</label>
-                        <input type="text" class="form-control linhas " id="estado" placeholder="Digite seu estado" required minlength="2" maxlength="">
+                        <input type="text" class="form-control linhas " id="estado" placeholder="Digite seu estado" required minlength="2" maxlength="2">
+                        <span id="mensagem-erro-estado"></span>
                     </div>
                     <br>
                     <button type="submit" class="btn btn-primary btn-block">Cadastrar</button>
@@ -45,8 +51,8 @@
             </div>
         </div>
     </div>
-
-
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://gutoffline.github.io/cadastro-usuario/funcoes.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>

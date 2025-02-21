@@ -10,6 +10,7 @@ body{
 
 .container{
     background-color: transparent;
+    
 }
 
 .card {
@@ -35,4 +36,7 @@ body{
     color: black;
     border-color: transparent;
 }
-
+.erro{
+    color: red;
+    background-color: rgba(248, 247, 247, 0.295);
+}
