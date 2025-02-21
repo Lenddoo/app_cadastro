@@ -37,6 +37,8 @@ body{
     border-color: transparent;
 }
 .erro{
-    color: red;
-    background-color: rgba(248, 247, 247, 0.295);
+    color: red;  
+}
+.erro-linha{
+    border-color: red;
 }
