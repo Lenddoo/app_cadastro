@@ -56,7 +56,6 @@ document.getElementById("senha").addEventListener("blur", function(){
         }
 })
 
-
 document.getElementById("confSenha").addEventListener("blur", function(){
     fnAdicionarMensagemDeErro("mensagem-erro-confSenha", "limpar")
 
