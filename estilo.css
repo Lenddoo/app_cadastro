@@ -2,7 +2,7 @@ body{
     background-color: darkcyan;
 }
 .bg-custom {
-    background-image: url('taai.jfif');
+    background-image: url('ai-generated-9426221.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -23,13 +23,17 @@ body{
     border-color: transparent;
 }
 .linhas{
-    background-color: rgba(248, 247, 247, 0.295);
+    background-color: rgba(143, 143, 143, 0.295);
     border-color: transparent;
     color: rgb(0, 0, 0);
 }
 
+.linhas::placeholder{
+    color: white;
+}
+
 .branco{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 .btn{
     background-color: yellow;
@@ -37,7 +41,7 @@ body{
     border-color: transparent;
 }
 .erro{
-    color: red;  
+    color: rgb(255, 0, 0);  
 }
 .erro-linha{
     border-color: red;
